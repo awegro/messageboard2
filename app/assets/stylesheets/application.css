@@ -8,6 +8,28 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require twitter/bootstrap
  *= require_self
  *= require_tree .
  */
+
+
+
+
+
+.navbar { margin-bottom: 40px }
+
+.post {
+  background: #eef;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.reply {
+  margin: 1em;
+  color: #666;
+  padding-left: 1em;
+  border-left: solid 5px #333;
+  border-bottom: solid 1px #333
+}
+
